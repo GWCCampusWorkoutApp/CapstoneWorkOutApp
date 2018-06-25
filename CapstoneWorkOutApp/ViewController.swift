@@ -9,17 +9,43 @@
 import UIKit
 
 class ViewController: UIViewController {
-
+    
+    var menu_vc : MenuViewController!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        menu_vc = self.storyboard?.instantiateViewController(withIdentifier: "MenuViewController") as! MenuViewController
+        
+        
     }
 
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
+    
+    @IBAction func menu_action(_ sender: UIBarButtonItem) {
+        if AppDelegate.menu_bool{
+            //show the menu
+            show_menu()
+            
+        }else{
+            //close the menu
+            close_menu()
+        }
+        
+        
     }
-
-
+    func show_menu() {
+        UIView.animate(withDuration: 0.3){ ()-> Void in
+            self.menu_vc.view.frame = CGRect ()
+            self.menu_vc.view.backgroundColor = UIColor.black.withAlphaComponent(0.6)
+            self.addChildViewController(self.menu_vc)
+            self.view.addSubview(self.menu_vc.view)
+            AppDelegate.menu_bool = false
+        }
+        
+    }
+    func close_menu()  {
+        self.menu_vc.view.removeFromSuperview()
+        AppDelegate.menu_bool = true
+    }
 }
 
