@@ -18,7 +18,6 @@
 		CC7B313E20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B313D20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift */; };
 		CC7B314920E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */; };
 		CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315820E18A0900EC27A7 /* MenuViewController.swift */; };
-		CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */; };
 		CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D520E2A2A700598686 /* CoreViewController.swift */; };
 		CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D720E2ADB200598686 /* LunchViewController.swift */; };
 /* End PBXBuildFile section */
@@ -58,7 +57,6 @@
 		CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneWorkOutAppUITests.swift; sourceTree = "<group>"; };
 		CC7B314A20E184EF00EC27A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7B315820E18A0900EC27A7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		CCA987D520E2A2A700598686 /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
 		CCA987D720E2ADB200598686 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LunchViewController.swift; path = CapstoneWorkOutApp/LunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -88,6 +86,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		CC311E9120E2E79800E65269 /* Recovered References */ = {
+			isa = PBXGroup;
+			children = (
+				CCA987D520E2A2A700598686 /* CoreViewController.swift */,
+				CCA987D720E2ADB200598686 /* LunchViewController.swift */,
+			);
+			name = "Recovered References";
+			sourceTree = "<group>";
+		};
 		CC7B311920E184EE00EC27A7 = {
 			isa = PBXGroup;
 			children = (
@@ -96,6 +103,7 @@
 				CC7B313C20E184EF00EC27A7 /* CapstoneWorkOutAppTests */,
 				CC7B314720E184EF00EC27A7 /* CapstoneWorkOutAppUITests */,
 				CC7B312320E184EE00EC27A7 /* Products */,
+				CC311E9120E2E79800E65269 /* Recovered References */,
 			);
 			sourceTree = "<group>";
 		};
@@ -114,7 +122,6 @@
 			children = (
 				CC7B312520E184EE00EC27A7 /* AppDelegate.swift */,
 				CC7B315820E18A0900EC27A7 /* MenuViewController.swift */,
-				CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */,
 				CC7B312720E184EE00EC27A7 /* ViewController.swift */,
 				CC7B312920E184EE00EC27A7 /* Main.storyboard */,
 				CC7B312F20E184EF00EC27A7 /* Assets.xcassets */,
@@ -283,7 +290,6 @@
 				CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */,
 				CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */,
 				CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */,
-				CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
