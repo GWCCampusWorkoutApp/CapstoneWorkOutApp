@@ -30,9 +30,6 @@ class SnacksViewController: UIViewController {
         titleLabel.text = titleRec[randomIndex]
     }
     
-    
-    
-    
     override func viewDidLoad() {
         super.viewDidLoad()
 
