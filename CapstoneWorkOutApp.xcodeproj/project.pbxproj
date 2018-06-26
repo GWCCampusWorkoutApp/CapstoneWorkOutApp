@@ -19,6 +19,7 @@
 		CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315820E18A0900EC27A7 /* MenuViewController.swift */; };
 		CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */; };
 		CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D520E2A2A700598686 /* CoreViewController.swift */; };
+		CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D720E2ADB200598686 /* LunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +58,7 @@
 		CC7B315820E18A0900EC27A7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 		CCA987D520E2A2A700598686 /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		CCA987D720E2ADB200598686 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LunchViewController.swift; path = CapstoneWorkOutApp/LunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +90,7 @@
 			isa = PBXGroup;
 			children = (
 				CCA987D520E2A2A700598686 /* CoreViewController.swift */,
+				CCA987D720E2ADB200598686 /* LunchViewController.swift */,
 				CC7B312420E184EE00EC27A7 /* CapstoneWorkOutApp */,
 				CC7B313C20E184EF00EC27A7 /* CapstoneWorkOutAppTests */,
 				CC7B314720E184EF00EC27A7 /* CapstoneWorkOutAppUITests */,
@@ -276,6 +279,7 @@
 				CC7B312E20E184EE00EC27A7 /* CapstoneWorkOutApp.xcdatamodeld in Sources */,
 				CC4393F720E19DBD009C43A8 /* ArmsViewController.swift in Sources */,
 				CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */,
+				CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */,
 				CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */,
 				CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */,
 			);
