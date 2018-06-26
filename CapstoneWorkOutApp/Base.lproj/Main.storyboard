@@ -269,6 +269,7 @@ Drop to your knees if this is too challenging.
                                     <constraint firstAttribute="width" constant="154" id="Nc2-P0-MGq"/>
                                     <constraint firstAttribute="height" constant="33" id="Vcp-F2-Q1Q"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
                                 <state key="normal" title="Click for Recipe"/>
                                 <connections>
                                     <action selector="linkButton:" destination="8mo-Xb-IOg" eventType="touchUpInside" id="EZd-uV-1PE"/>
@@ -280,12 +281,13 @@ Drop to your knees if this is too challenging.
                                     <constraint firstAttribute="width" constant="218" id="gCe-Ur-isM"/>
                                     <constraint firstAttribute="height" constant="29" id="wCf-Ra-qFa"/>
                                 </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
                                 <state key="normal" title="Click for Recommendation"/>
                                 <connections>
                                     <action selector="recButton:" destination="8mo-Xb-IOg" eventType="touchUpInside" id="B2f-oQ-nRg"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="iYn-Px-xZk">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b1" translatesAutoresizingMaskIntoConstraints="NO" id="iYn-Px-xZk">
                                 <rect key="frame" x="59" y="172" width="257" height="157"/>
                                 <constraints>
                                     <constraint firstAttribute="width" constant="257" id="ISd-Rk-mKV"/>
@@ -394,12 +396,12 @@ Drop to your knees if this is too challenging.
                                 <rect key="frame" x="42" y="208" width="291" height="298"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <mutableString key="text">Bird-Dog Crunch (abs, hamstrings, glutes, shoulders) 
+                                <string key="text">Bird-Dog Crunch (abs, hamstrings, glutes, shoulders) 
 Start on the floor on all fours, hands placed directly underneath your shoulders, hips in line with your knees. 
 Lift your right hand and extend your arm straight out, keeping it shoulder height, while simultaneously lifting your left leg and extending it straight back
 Your whole body should be in a straight line from right fingertips to left toes. Bring your left leg to touch your right elbow under your stomach. Extend your leg and arm out again. Return to starting position.
 Repeat on the other side. Do five reps on each side.
-</mutableString>
+</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
@@ -526,6 +528,7 @@ Repeat on the other side. Do five reps on each side.
     </scenes>
     <resources>
         <image name="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" width="1140" height="1710"/>
+        <image name="b1" width="2448" height="3264"/>
         <image name="menu5" width="25" height="25"/>
     </resources>
 </document>
