@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		CC671E1C20E1A4A10048337E /* LegsAndGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC671E1B20E1A4A10048337E /* LegsAndGlutesViewController.swift */; };
 		CC671E2F20E2ABF30048337E /* cardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC671E2E20E2ABF30048337E /* cardioViewController.swift */; };
+		CC671E3320E2B16C0048337E /* SnacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC671E3220E2B16C0048337E /* SnacksViewController.swift */; };
 		CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312520E184EE00EC27A7 /* AppDelegate.swift */; };
 		CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312720E184EE00EC27A7 /* ViewController.swift */; };
 		CC7B312B20E184EE00EC27A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B312920E184EE00EC27A7 /* Main.storyboard */; };
@@ -39,6 +40,7 @@
 /* Begin PBXFileReference section */
 		CC671E1B20E1A4A10048337E /* LegsAndGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsAndGlutesViewController.swift; sourceTree = "<group>"; };
 		CC671E2E20E2ABF30048337E /* cardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardioViewController.swift; sourceTree = "<group>"; };
+		CC671E3220E2B16C0048337E /* SnacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacksViewController.swift; sourceTree = "<group>"; };
 		CC7B312220E184EE00EC27A7 /* CapstoneWorkOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneWorkOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B312520E184EE00EC27A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B312720E184EE00EC27A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -103,6 +105,7 @@
 		CC7B312420E184EE00EC27A7 /* CapstoneWorkOutApp */ = {
 			isa = PBXGroup;
 			children = (
+				CC671E3220E2B16C0048337E /* SnacksViewController.swift */,
 				CC7B312520E184EE00EC27A7 /* AppDelegate.swift */,
 				CC7B312720E184EE00EC27A7 /* ViewController.swift */,
 				CC7B312920E184EE00EC27A7 /* Main.storyboard */,
@@ -266,6 +269,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */,
+				CC671E3320E2B16C0048337E /* SnacksViewController.swift in Sources */,
 				CC671E2F20E2ABF30048337E /* cardioViewController.swift in Sources */,
 				CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */,
 				CC7B312E20E184EE00EC27A7 /* CapstoneWorkOutApp.xcdatamodeld in Sources */,
