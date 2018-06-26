@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HXz-nX-WdN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HWs-DB-aNI">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -102,62 +102,56 @@
                                 <rect key="frame" x="0.0" y="115" width="57" height="42"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </stackView>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workouts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8z-0A-nMB">
-                                <rect key="frame" x="123" y="54" width="130" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workouts " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8z-0A-nMB">
+                                <rect key="frame" x="10" y="54" width="355" height="36"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.65098039220000004" green="0.61176470589999998" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7k-Lv-G4E">
                                 <rect key="frame" x="10" y="115" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Arms">
-                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiF-nl-Cdn">
                                 <rect key="frame" x="10" y="165" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Legs and Glutes">
-                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNX-Wg-rTA">
                                 <rect key="frame" x="10" y="215" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Core">
-                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0F-iZ-sTb">
                                 <rect key="frame" x="10" y="265" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Cardio">
-                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                </state>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbH-tR-otb">
-                                <rect key="frame" x="315" y="619" width="53" height="36"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.76470588240000004" green="0.2470588235" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <state key="normal" title="Home">
-                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" red="0.76470588240000004" green="0.2470588235" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="I7k-Lv-G4E" firstAttribute="leading" secondItem="hLp-wk-AZd" secondAttribute="leading" constant="10" id="0KR-lj-DN3"/>
                             <constraint firstItem="hLp-wk-AZd" firstAttribute="trailing" secondItem="I7k-Lv-G4E" secondAttribute="trailing" constant="10" id="66U-Wc-dMa"/>
+                            <constraint firstItem="I8z-0A-nMB" firstAttribute="leading" secondItem="hLp-wk-AZd" secondAttribute="leading" constant="10" id="7bj-X5-oFy"/>
                             <constraint firstItem="hLp-wk-AZd" firstAttribute="trailing" secondItem="fiF-nl-Cdn" secondAttribute="trailing" constant="10" id="IVZ-p1-xgl"/>
                             <constraint firstItem="yNX-Wg-rTA" firstAttribute="top" secondItem="fiF-nl-Cdn" secondAttribute="bottom" constant="8" symbolic="YES" id="KVk-gM-oS0"/>
                             <constraint firstItem="I8z-0A-nMB" firstAttribute="centerX" secondItem="Icc-xf-8Vv" secondAttribute="centerX" id="PE3-fh-4YQ"/>
                             <constraint firstItem="fiF-nl-Cdn" firstAttribute="leading" secondItem="hLp-wk-AZd" secondAttribute="leading" constant="10" id="UV1-Lr-KZn"/>
+                            <constraint firstItem="hLp-wk-AZd" firstAttribute="trailing" secondItem="I8z-0A-nMB" secondAttribute="trailing" constant="10" id="Xdy-xN-onD"/>
                             <constraint firstItem="I7k-Lv-G4E" firstAttribute="top" secondItem="I8z-0A-nMB" secondAttribute="bottom" constant="25" id="aDK-1W-4NF"/>
                             <constraint firstItem="I8z-0A-nMB" firstAttribute="top" secondItem="hLp-wk-AZd" secondAttribute="top" constant="34" id="aS7-eh-4gU"/>
                             <constraint firstItem="yNX-Wg-rTA" firstAttribute="top" secondItem="Icc-xf-8Vv" secondAttribute="top" constant="215" id="cdW-4M-uGp"/>
@@ -177,60 +171,59 @@
         <!--Snacks View Controller-->
         <scene sceneID="BaR-gz-cTP">
             <objects>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="I3c-DK-aFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <viewController id="HWs-DB-aNI" customClass="SnacksViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="96n-oc-SNI">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snacks " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ne3-G2-xEG">
-                                <rect key="frame" x="10" y="58" width="355" height="36"/>
-                                <color key="backgroundColor" red="0.96862745100000003" green="0.82352941180000006" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <color key="textColor" red="0.8862745098" green="0.1764705882" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Snacks " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ne3-G2-xEG">
+                                <rect key="frame" x="10" y="55" width="355" height="39"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zi-TX-MJj">
-                                <rect key="frame" x="52" y="131" width="271" height="36"/>
-                                <color key="backgroundColor" red="0.3921568627" green="0.14117647059999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zi-TX-MJj">
+                                <rect key="frame" x="52" y="486" width="271" height="36"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
                                 <state key="normal" title="Click for More Snacks ">
-                                    <color key="titleColor" red="0.96078431369999995" green="0.84313725490000002" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="snacksButton:" destination="HWs-DB-aNI" eventType="touchUpInside" id="NC9-5d-bdx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZI-lR-qrv">
-                                <rect key="frame" x="38" y="175" width="298" height="376"/>
-                                <string key="text">Chunky Monkey Shake:
-If protein powder is just not your thing, there are plenty of alternatives to creating a high-protein beverage, including this banana-y pick-me-up, bulked up with chocolate milk and peanut butter, which provides both healthy fat and cardiovascular benefits in addition to protein.  It’s time to get funky, monkey!    
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Chunky Monkey Shake" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eFx-TU-mWA">
+                                <rect key="frame" x="52" y="119" width="271" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZI-lR-qrv">
+                                <rect key="frame" x="37" y="191" width="300" height="235"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <string key="text">If protein powder is just not your thing, there are plenty of alternatives to creating a high-protein beverage, including this banana-y pick-me-up, bulked up with chocolate milk and peanut butter, which provides both healthy fat and cardiovascular benefits in addition to protein.  It’s time to get funky, monkey!    
 1 medium banana, 1 tablespoon of peanut butter, and 1 cup of low fat chocolate milk blended with 1 cup of ice: 15 grams protein</string>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <color key="textColor" red="0.16862745100000001" green="0.098039215690000001" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="14"/>
+                                <color key="textColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" red="0.1058823529" green="0.63529411759999999" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                        <constraints>
-                            <constraint firstItem="2Zi-TX-MJj" firstAttribute="leading" secondItem="mKP-16-Zny" secondAttribute="leading" constant="52" id="54V-c5-pAy"/>
-                            <constraint firstItem="2Zi-TX-MJj" firstAttribute="top" secondItem="ne3-G2-xEG" secondAttribute="bottom" constant="37" id="9nK-5K-rzL"/>
-                            <constraint firstItem="2Zi-TX-MJj" firstAttribute="top" secondItem="96n-oc-SNI" secondAttribute="top" constant="131" id="DVk-jC-8ST"/>
-                            <constraint firstItem="ne3-G2-xEG" firstAttribute="leading" secondItem="mKP-16-Zny" secondAttribute="leading" constant="10" id="HBI-oS-7O4"/>
-                            <constraint firstItem="dZI-lR-qrv" firstAttribute="top" secondItem="2Zi-TX-MJj" secondAttribute="bottom" constant="8" symbolic="YES" id="HnP-9o-oTG"/>
-                            <constraint firstItem="mKP-16-Zny" firstAttribute="trailing" secondItem="2Zi-TX-MJj" secondAttribute="trailing" constant="52" id="Zom-KP-Kae"/>
-                            <constraint firstItem="2Zi-TX-MJj" firstAttribute="centerX" secondItem="dZI-lR-qrv" secondAttribute="centerX" id="bQd-9D-jGK"/>
-                            <constraint firstItem="2Zi-TX-MJj" firstAttribute="centerX" secondItem="ne3-G2-xEG" secondAttribute="centerX" id="c6B-FJ-MAm"/>
-                            <constraint firstItem="mKP-16-Zny" firstAttribute="trailing" secondItem="ne3-G2-xEG" secondAttribute="trailing" constant="10" id="q4g-XB-POf"/>
-                        </constraints>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <viewLayoutGuide key="safeArea" id="mKP-16-Zny"/>
                     </view>
                     <connections>
                         <outlet property="chunkyMonkeyLabel" destination="dZI-lR-qrv" id="db6-xO-boc"/>
+                        <outlet property="titleLabel" destination="eFx-TU-mWA" id="3ij-oQ-L0T"/>
                     </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="I3c-DK-aFg" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1760.8" y="1501.7991004497753"/>
+            <point key="canvasLocation" x="3192.8000000000002" y="886.50674662668678"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="UBz-oa-tdX">
@@ -269,18 +262,19 @@ If protein powder is just not your thing, there are plenty of alternatives to cr
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Legs and Glutes" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="bFk-wi-HYK">
-                                <rect key="frame" x="66" y="51" width="242" height="42"/>
+                                <rect key="frame" x="10" y="51" width="355" height="42"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dRE-Gn-AmA">
                                 <rect key="frame" x="52" y="145" width="271" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.82319077230000004" green="0.53342191189999999" blue="0.51720556210000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Click for a Workout">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="legsAndGlutesWorkoutButton:" destination="jhA-6a-Q2X" eventType="touchUpInside" id="HEO-yb-Yea"/>
@@ -293,15 +287,16 @@ If protein powder is just not your thing, there are plenty of alternatives to cr
 How to do it: Begin on all fours with your knees hips-width apart and your wrists stacked over your shoulders. Keeping the knee bent to a 90-degree angle, lift the right leg out to hip-height, then extend the raised leg straight out to the side. Pause before you bend the knee again and bring your leg back to starting position to complete one rep.
 </string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="dzZ-cT-49a" firstAttribute="trailing" secondItem="bFk-wi-HYK" secondAttribute="trailing" constant="67" id="5l9-vh-ITk"/>
+                            <constraint firstItem="bFk-wi-HYK" firstAttribute="leading" secondItem="dzZ-cT-49a" secondAttribute="leading" constant="10" id="F1x-HE-qkh"/>
                             <constraint firstItem="bFk-wi-HYK" firstAttribute="top" secondItem="dzZ-cT-49a" secondAttribute="top" constant="31" id="HZM-Q8-zD7"/>
-                            <constraint firstItem="bFk-wi-HYK" firstAttribute="leading" secondItem="dzZ-cT-49a" secondAttribute="leading" constant="66" id="m5M-MR-RNb"/>
+                            <constraint firstItem="dzZ-cT-49a" firstAttribute="trailing" secondItem="bFk-wi-HYK" secondAttribute="trailing" constant="10" id="pf9-4X-yz0"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="dzZ-cT-49a"/>
                     </view>
@@ -349,10 +344,11 @@ How to do it: Begin on all fours with your knees hips-width apart and your wrist
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardio" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFW-BD-dTF">
-                                <rect key="frame" x="138" y="60" width="99" height="42"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Cardio" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hFW-BD-dTF">
+                                <rect key="frame" x="10" y="60" width="355" height="42"/>
+                                <color key="backgroundColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="35"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.98039215690000003" green="0.95294117649999999" blue="0.87058823529999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="20" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="llJ-Uq-uoz">
@@ -361,15 +357,15 @@ How to do it: Begin on all fours with your knees hips-width apart and your wrist
 Stand tall with your feet hip-width apart. Bend both knees, swing arms back, and drive off ground as high as possible.  Land softly and immediately bend your knees, place hands on the floor in front of you, and jump your feet all the way back so you end up in a plank position. 
 Lower your chest to perform a pushup.   Jump both feet back in and stand.  Immediately jump up to repeat. Continue to do as many reps as possible for 1 minute.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="21"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.36862745099999999" green="0.3921568627" blue="0.4431372549" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="oBH-La-Jqq">
                                 <rect key="frame" x="52" y="129" width="271" height="36"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.99215686270000003" green="0.65098039220000004" blue="0.62745098040000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Click for a Workout">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.72941176470000002" green="0.94901960780000005" blue="0.90196078430000004" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="cardioWorkoutButton:" destination="FzG-67-86C" eventType="touchUpInside" id="Yqn-6l-JE3"/>
@@ -378,15 +374,16 @@ Lower your chest to perform a pushup.   Jump both feet back in and stand.  Immed
                                 </connections>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oBH-La-Jqq" firstAttribute="top" secondItem="hFW-BD-dTF" secondAttribute="bottom" constant="27" id="3cG-nK-JH0"/>
                             <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="hFW-BD-dTF" secondAttribute="trailing" constant="138" id="3fy-zC-Yfo"/>
+                            <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="hFW-BD-dTF" secondAttribute="trailing" constant="10" id="E91-l0-yfb"/>
                             <constraint firstItem="oBH-La-Jqq" firstAttribute="leading" secondItem="Mdj-bh-f0j" secondAttribute="leading" constant="52" id="KbW-hq-5lL"/>
                             <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="oBH-La-Jqq" secondAttribute="trailing" constant="52" id="R1q-id-Qku"/>
                             <constraint firstItem="oBH-La-Jqq" firstAttribute="centerX" secondItem="llJ-Uq-uoz" secondAttribute="centerX" id="bla-b7-C8F"/>
                             <constraint firstItem="hFW-BD-dTF" firstAttribute="top" secondItem="Mdj-bh-f0j" secondAttribute="top" constant="40" id="eZa-s5-6fI"/>
-                            <constraint firstItem="hFW-BD-dTF" firstAttribute="leading" secondItem="Mdj-bh-f0j" secondAttribute="leading" constant="138" id="oa8-gX-yHO"/>
+                            <constraint firstItem="hFW-BD-dTF" firstAttribute="leading" secondItem="Mdj-bh-f0j" secondAttribute="leading" constant="10" id="frr-zd-5s4"/>
                             <constraint firstItem="llJ-Uq-uoz" firstAttribute="top" secondItem="oBH-La-Jqq" secondAttribute="bottom" constant="8" symbolic="YES" id="yim-H4-hYr"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="Mdj-bh-f0j"/>
