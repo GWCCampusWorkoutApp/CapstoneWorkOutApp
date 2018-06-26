@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XFx-5U-SJx">
-                                <rect key="frame" x="67" y="228" width="240" height="219"/>
+                                <rect key="frame" x="43" y="228" width="288" height="289"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Push-Up (works triceps, shoulders, core)
@@ -125,7 +125,7 @@ Bend your elbows and lower your body to the mat.
 Push through the palms of your hands to straighten your arms.
 Drop to your knees if this is too challenging.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -173,10 +173,10 @@ Drop to your knees if this is too challenging.
             </objects>
             <point key="canvasLocation" x="3229.5999999999999" y="134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Core View Controller-->
         <scene sceneID="LQG-dv-vfe">
             <objects>
-                <viewController id="k06-kn-qeM" sceneMemberID="viewController">
+                <viewController id="k06-kn-qeM" customClass="CoreViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZMq-zw-ek8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +187,30 @@ Drop to your knees if this is too challenging.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bg-Mi-t9C">
+                                <rect key="frame" x="78" y="156" width="219" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Click for a Core Workout">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CoreRecommendation:" destination="k06-kn-qeM" eventType="touchUpInside" id="PTF-XU-ggK"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IDb-Tp-eXr">
+                                <rect key="frame" x="42" y="208" width="291" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <mutableString key="text">Bird-Dog Crunch (abs, hamstrings, glutes, shoulders) 
+Start on the floor on all fours, hands placed directly underneath your shoulders, hips in line with your knees. 
+Lift your right hand and extend your arm straight out, keeping it shoulder height, while simultaneously lifting your left leg and extending it straight back
+Your whole body should be in a straight line from right fingertips to left toes. Bring your left leg to touch your right elbow under your stomach. Extend your leg and arm out again. Return to starting position.
+Repeat on the other side. Do five reps on each side.
+</mutableString>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -196,10 +220,13 @@ Drop to your knees if this is too challenging.
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BuH-Vb-enr"/>
                     </view>
+                    <connections>
+                        <outlet property="CoreRecommendationText" destination="IDb-Tp-eXr" id="WhX-3v-Ds9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYg-YM-UJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3929" y="135"/>
+            <point key="canvasLocation" x="3928.8000000000002" y="134.48275862068968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vFO-hj-VWB">
