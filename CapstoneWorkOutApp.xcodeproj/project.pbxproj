@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC671E1C20E1A4A10048337E /* LegsAndGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC671E1B20E1A4A10048337E /* LegsAndGlutesViewController.swift */; };
+		CC671E2F20E2ABF30048337E /* cardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC671E2E20E2ABF30048337E /* cardioViewController.swift */; };
 		CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312520E184EE00EC27A7 /* AppDelegate.swift */; };
 		CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312720E184EE00EC27A7 /* ViewController.swift */; };
 		CC7B312B20E184EE00EC27A7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B312920E184EE00EC27A7 /* Main.storyboard */; };
@@ -15,8 +17,6 @@
 		CC7B313320E184EF00EC27A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B313120E184EF00EC27A7 /* LaunchScreen.storyboard */; };
 		CC7B313E20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B313D20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift */; };
 		CC7B314920E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */; };
-		CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315820E18A0900EC27A7 /* MenuViewController.swift */; };
-		CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,6 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC671E1B20E1A4A10048337E /* LegsAndGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LegsAndGlutesViewController.swift; sourceTree = "<group>"; };
+		CC671E2E20E2ABF30048337E /* cardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = cardioViewController.swift; sourceTree = "<group>"; };
 		CC7B312220E184EE00EC27A7 /* CapstoneWorkOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneWorkOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B312520E184EE00EC27A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		CC7B312720E184EE00EC27A7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -51,8 +53,6 @@
 		CC7B314420E184EF00EC27A7 /* CapstoneWorkOutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneWorkOutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneWorkOutAppUITests.swift; sourceTree = "<group>"; };
 		CC7B314A20E184EF00EC27A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		CC7B315820E18A0900EC27A7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
-		CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +83,6 @@
 		CC7B311920E184EE00EC27A7 = {
 			isa = PBXGroup;
 			children = (
-				CC7B315820E18A0900EC27A7 /* MenuViewController.swift */,
-				CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */,
 				CC7B312420E184EE00EC27A7 /* CapstoneWorkOutApp */,
 				CC7B313C20E184EF00EC27A7 /* CapstoneWorkOutAppTests */,
 				CC7B314720E184EF00EC27A7 /* CapstoneWorkOutAppUITests */,
@@ -108,6 +106,8 @@
 				CC7B312520E184EE00EC27A7 /* AppDelegate.swift */,
 				CC7B312720E184EE00EC27A7 /* ViewController.swift */,
 				CC7B312920E184EE00EC27A7 /* Main.storyboard */,
+				CC671E2E20E2ABF30048337E /* cardioViewController.swift */,
+				CC671E1B20E1A4A10048337E /* LegsAndGlutesViewController.swift */,
 				CC7B312F20E184EF00EC27A7 /* Assets.xcassets */,
 				CC7B313120E184EF00EC27A7 /* LaunchScreen.storyboard */,
 				CC7B313420E184EF00EC27A7 /* Info.plist */,
@@ -266,10 +266,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */,
+				CC671E2F20E2ABF30048337E /* cardioViewController.swift in Sources */,
 				CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */,
 				CC7B312E20E184EE00EC27A7 /* CapstoneWorkOutApp.xcdatamodeld in Sources */,
-				CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */,
-				CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */,
+				CC671E1C20E1A4A10048337E /* LegsAndGlutesViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
