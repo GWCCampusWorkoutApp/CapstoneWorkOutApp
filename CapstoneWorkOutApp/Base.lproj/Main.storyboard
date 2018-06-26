@@ -500,6 +500,7 @@ Repeat on the other side. Do five reps on each side.
                     </view>
                     <connections>
                         <outlet property="LunchText" destination="DWM-BX-es1" id="C2Q-2I-65O"/>
+                        <outlet property="imageLabel" destination="R8L-Tl-L7K" id="BXZ-EX-ZNh"/>
                         <outlet property="lunchText" destination="DWM-BX-es1" id="giM-0m-9zU"/>
                     </connections>
                 </viewController>
@@ -529,6 +530,6 @@ Repeat on the other side. Do five reps on each side.
     <resources>
         <image name="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" width="1140" height="1710"/>
         <image name="b1" width="2448" height="3264"/>
-        <image name="menu5" width="25" height="25"/>
+        <image name="menu5" width="50" height="50"/>
     </resources>
 </document>
