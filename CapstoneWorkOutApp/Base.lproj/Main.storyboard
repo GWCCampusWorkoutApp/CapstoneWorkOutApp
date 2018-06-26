@@ -293,7 +293,6 @@ How to do it: Begin on all fours with your knees hips-width apart and your wrist
                         </subviews>
                         <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="dzZ-cT-49a" firstAttribute="trailing" secondItem="bFk-wi-HYK" secondAttribute="trailing" constant="67" id="5l9-vh-ITk"/>
                             <constraint firstItem="bFk-wi-HYK" firstAttribute="leading" secondItem="dzZ-cT-49a" secondAttribute="leading" constant="10" id="F1x-HE-qkh"/>
                             <constraint firstItem="bFk-wi-HYK" firstAttribute="top" secondItem="dzZ-cT-49a" secondAttribute="top" constant="31" id="HZM-Q8-zD7"/>
                             <constraint firstItem="dzZ-cT-49a" firstAttribute="trailing" secondItem="bFk-wi-HYK" secondAttribute="trailing" constant="10" id="pf9-4X-yz0"/>
@@ -377,7 +376,6 @@ Lower your chest to perform a pushup.   Jump both feet back in and stand.  Immed
                         <color key="backgroundColor" red="0.68627450980000004" green="0.85098039219999999" blue="0.87450980389999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="oBH-La-Jqq" firstAttribute="top" secondItem="hFW-BD-dTF" secondAttribute="bottom" constant="27" id="3cG-nK-JH0"/>
-                            <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="hFW-BD-dTF" secondAttribute="trailing" constant="138" id="3fy-zC-Yfo"/>
                             <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="hFW-BD-dTF" secondAttribute="trailing" constant="10" id="E91-l0-yfb"/>
                             <constraint firstItem="oBH-La-Jqq" firstAttribute="leading" secondItem="Mdj-bh-f0j" secondAttribute="leading" constant="52" id="KbW-hq-5lL"/>
                             <constraint firstItem="Mdj-bh-f0j" firstAttribute="trailing" secondItem="oBH-La-Jqq" secondAttribute="trailing" constant="52" id="R1q-id-Qku"/>
