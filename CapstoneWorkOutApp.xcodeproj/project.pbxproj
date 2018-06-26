@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		CC311E8F20E2DAC600E65269 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC311E8E20E2DAC600E65269 /* BreakfastViewController.swift */; };
 		CC4393F720E19DBD009C43A8 /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC4393F620E19DBD009C43A8 /* ArmsViewController.swift */; };
 		CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312520E184EE00EC27A7 /* AppDelegate.swift */; };
 		CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B312720E184EE00EC27A7 /* ViewController.swift */; };
@@ -18,6 +19,8 @@
 		CC7B314920E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */; };
 		CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315820E18A0900EC27A7 /* MenuViewController.swift */; };
 		CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */; };
+		CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D520E2A2A700598686 /* CoreViewController.swift */; };
+		CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCA987D720E2ADB200598686 /* LunchViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		CC311E8E20E2DAC600E65269 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
 		CC4393F620E19DBD009C43A8 /* ArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
 		CC7B312220E184EE00EC27A7 /* CapstoneWorkOutApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CapstoneWorkOutApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B312520E184EE00EC27A7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -55,6 +59,8 @@
 		CC7B314A20E184EF00EC27A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CC7B315820E18A0900EC27A7 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
 		CC7B315A20E18A4F00EC27A7 /* MenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuTableViewCell.swift; sourceTree = "<group>"; };
+		CCA987D520E2A2A700598686 /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		CCA987D720E2ADB200598686 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LunchViewController.swift; path = CapstoneWorkOutApp/LunchViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +91,7 @@
 		CC7B311920E184EE00EC27A7 = {
 			isa = PBXGroup;
 			children = (
+				CC311E8E20E2DAC600E65269 /* BreakfastViewController.swift */,
 				CC7B312420E184EE00EC27A7 /* CapstoneWorkOutApp */,
 				CC7B313C20E184EF00EC27A7 /* CapstoneWorkOutAppTests */,
 				CC7B314720E184EF00EC27A7 /* CapstoneWorkOutAppUITests */,
@@ -271,7 +278,10 @@
 				CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */,
 				CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */,
 				CC7B312E20E184EE00EC27A7 /* CapstoneWorkOutApp.xcdatamodeld in Sources */,
+				CC311E8F20E2DAC600E65269 /* BreakfastViewController.swift in Sources */,
 				CC4393F720E19DBD009C43A8 /* ArmsViewController.swift in Sources */,
+				CCA987D620E2A2A700598686 /* CoreViewController.swift in Sources */,
+				CCA987D820E2ADB200598686 /* LunchViewController.swift in Sources */,
 				CC7B315920E18A0900EC27A7 /* MenuViewController.swift in Sources */,
 				CC7B315B20E18A4F00EC27A7 /* MenuTableViewCell.swift in Sources */,
 			);

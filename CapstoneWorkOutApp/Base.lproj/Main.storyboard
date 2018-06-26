@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="HXz-nX-WdN">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14113" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8mo-Xb-IOg">
     <device id="retina4_7" orientation="portrait">
         <adaptation id="fullscreen"/>
     </device>
@@ -116,7 +116,7 @@
                                 </connections>
                             </button>
                             <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="XFx-5U-SJx">
-                                <rect key="frame" x="67" y="228" width="240" height="219"/>
+                                <rect key="frame" x="43" y="228" width="288" height="289"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <string key="text">Push-Up (works triceps, shoulders, core)
@@ -125,7 +125,7 @@ Bend your elbows and lower your body to the mat.
 Push through the palms of your hands to straighten your arms.
 Drop to your knees if this is too challenging.
 </string>
-                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                         </subviews>
@@ -144,6 +144,200 @@ Drop to your knees if this is too challenging.
                 <placeholder placeholderIdentifier="IBFirstResponder" id="CiC-uj-hwJ" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2540" y="134.48275862068968"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="whi-7T-hEk">
+            <objects>
+                <viewController id="dFM-WP-u2M" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="oie-np-2w4">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ibC-PL-1HG">
+                                <rect key="frame" x="67" y="150" width="240" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="FY8-wM-i2U"/>
+                                    <constraint firstAttribute="height" constant="45" id="GB7-B8-87q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="18"/>
+                                <state key="normal" title="Breakfast">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Tlg-aD-02h">
+                                <rect key="frame" x="67" y="245" width="240" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="3BN-5n-hz5"/>
+                                    <constraint firstAttribute="width" constant="240" id="qFI-XB-kOU"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="18"/>
+                                <state key="normal" title="Lunch">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Td-Q1-y3W">
+                                <rect key="frame" x="67" y="340" width="240" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="240" id="HdX-Av-AUd"/>
+                                    <constraint firstAttribute="height" constant="45" id="VuI-dL-jUC"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="18"/>
+                                <state key="normal" title="Snacks">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Z4W-4T-aNL">
+                                <rect key="frame" x="67" y="435" width="240" height="45"/>
+                                <color key="backgroundColor" red="1" green="0.1857388616" blue="0.57339501380000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="45" id="J3m-0Y-vfY"/>
+                                    <constraint firstAttribute="width" constant="240" id="hrf-sh-Viu"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="18"/>
+                                <state key="normal" title="Dinner">
+                                    <color key="titleColor" red="0.99999600649999998" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                </state>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Food" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kRs-rp-yBC">
+                                <rect key="frame" x="96" y="63" width="182" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="182" id="CgA-g4-AcW"/>
+                                    <constraint firstAttribute="height" constant="42" id="V3X-Qd-Qds"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Z4W-4T-aNL" firstAttribute="top" secondItem="2Td-Q1-y3W" secondAttribute="bottom" constant="50" id="19X-Nn-f7J"/>
+                            <constraint firstItem="2Td-Q1-y3W" firstAttribute="top" secondItem="Tlg-aD-02h" secondAttribute="bottom" constant="50" id="4gq-Pr-EKn"/>
+                            <constraint firstItem="2Td-Q1-y3W" firstAttribute="top" secondItem="Tlg-aD-02h" secondAttribute="bottom" constant="50" id="6ib-ru-tpk"/>
+                            <constraint firstItem="Tlg-aD-02h" firstAttribute="top" secondItem="ibC-PL-1HG" secondAttribute="bottom" constant="50" id="Dav-Ag-9Fr"/>
+                            <constraint firstItem="Tlg-aD-02h" firstAttribute="top" secondItem="ibC-PL-1HG" secondAttribute="bottom" constant="50" id="IZy-UT-AKn"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="centerX" secondItem="oie-np-2w4" secondAttribute="centerX" id="NbA-Dr-jfl"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="leading" secondItem="Tlg-aD-02h" secondAttribute="leading" id="ULm-US-AK6"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="leading" secondItem="2Td-Q1-y3W" secondAttribute="leading" id="dEt-td-doQ"/>
+                            <constraint firstItem="Z4W-4T-aNL" firstAttribute="top" secondItem="2Td-Q1-y3W" secondAttribute="bottom" constant="50" id="eDW-6b-f3c"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="centerX" secondItem="kRs-rp-yBC" secondAttribute="centerX" id="gyg-0C-zlt"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="top" secondItem="oie-np-2w4" secondAttribute="top" constant="150" id="ket-JM-fpq"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="top" secondItem="kRs-rp-yBC" secondAttribute="bottom" constant="45" id="mcM-yu-o2X"/>
+                            <constraint firstItem="ibC-PL-1HG" firstAttribute="leading" secondItem="Z4W-4T-aNL" secondAttribute="leading" id="s4X-v9-sJQ"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="15X-yq-rya"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="nhy-TI-PIr" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2540" y="872"/>
+        </scene>
+        <!--Breakfast View Controller-->
+        <scene sceneID="kFS-0Y-JLR">
+            <objects>
+                <viewController id="8mo-Xb-IOg" customClass="BreakfastViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gA1-GM-yfq">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Breakfast" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C3O-k3-HhZ">
+                                <rect key="frame" x="96" y="57" width="182" height="42"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="42" id="SRn-fP-xQ1"/>
+                                    <constraint firstAttribute="width" constant="182" id="ZFW-gA-5Tp"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Bold" family="Palatino" pointSize="25"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Nut Butter Banana Chia Toast" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7Qs-OO-c6n">
+                                <rect key="frame" x="63" y="107" width="248" height="57"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="Kl7-yl-fCi"/>
+                                    <constraint firstAttribute="height" constant="57" id="Y5I-Gq-gLe"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-BoldItalic" family="Palatino" pointSize="16"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="bJb-8b-qGC">
+                                <rect key="frame" x="110" y="497" width="154" height="33"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="154" id="Nc2-P0-MGq"/>
+                                    <constraint firstAttribute="height" constant="33" id="Vcp-F2-Q1Q"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                                <state key="normal" title="Click for Recipe"/>
+                                <connections>
+                                    <action selector="linkButton:" destination="8mo-Xb-IOg" eventType="touchUpInside" id="EZd-uV-1PE"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjX-Vh-oZ6">
+                                <rect key="frame" x="78" y="538" width="218" height="29"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="218" id="gCe-Ur-isM"/>
+                                    <constraint firstAttribute="height" constant="29" id="wCf-Ra-qFa"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
+                                <state key="normal" title="Click for Recommendation"/>
+                                <connections>
+                                    <action selector="recButton:" destination="8mo-Xb-IOg" eventType="touchUpInside" id="B2f-oQ-nRg"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="b1" translatesAutoresizingMaskIntoConstraints="NO" id="iYn-Px-xZk">
+                                <rect key="frame" x="59" y="172" width="257" height="157"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="257" id="ISd-Rk-mKV"/>
+                                    <constraint firstAttribute="height" constant="157" id="vzv-zc-p2c"/>
+                                </constraints>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="eV2-xq-ToP">
+                                <rect key="frame" x="63" y="359" width="248" height="130"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="248" id="EIN-7r-vHN"/>
+                                    <constraint firstAttribute="height" constant="130" id="Zkm-Em-772"/>
+                                </constraints>
+                                <string key="text">This is a great breakfast or even a nice snack option that will help you get through your day. The nut butter, banana, and chia seeds work well together to fill you up and keep your stomach full and your mind fueled.</string>
+                                <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="7Qs-OO-c6n" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="59e-VA-wQu"/>
+                            <constraint firstItem="bJb-8b-qGC" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="7v3-1d-NmC"/>
+                            <constraint firstItem="bJb-8b-qGC" firstAttribute="top" secondItem="eV2-xq-ToP" secondAttribute="bottom" constant="8" id="8lY-Wa-U65"/>
+                            <constraint firstItem="7Qs-OO-c6n" firstAttribute="top" secondItem="C3O-k3-HhZ" secondAttribute="bottom" constant="8" id="OAd-og-uYh"/>
+                            <constraint firstItem="eV2-xq-ToP" firstAttribute="top" secondItem="iYn-Px-xZk" secondAttribute="bottom" constant="30" id="PM1-5y-OuH"/>
+                            <constraint firstItem="bJb-8b-qGC" firstAttribute="top" secondItem="eV2-xq-ToP" secondAttribute="bottom" constant="8" id="PUd-mR-QaZ"/>
+                            <constraint firstItem="C3O-k3-HhZ" firstAttribute="top" secondItem="e2D-V1-MxR" secondAttribute="top" constant="37" id="Skb-0K-pv5"/>
+                            <constraint firstItem="QjX-Vh-oZ6" firstAttribute="top" secondItem="bJb-8b-qGC" secondAttribute="bottom" constant="8" id="YEc-es-qFp"/>
+                            <constraint firstItem="QjX-Vh-oZ6" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="ZdB-Hu-bG1"/>
+                            <constraint firstItem="eV2-xq-ToP" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="c0c-Ka-NMb"/>
+                            <constraint firstItem="iYn-Px-xZk" firstAttribute="top" secondItem="7Qs-OO-c6n" secondAttribute="bottom" constant="8" id="cH3-ND-cB9"/>
+                            <constraint firstItem="bJb-8b-qGC" firstAttribute="top" secondItem="eV2-xq-ToP" secondAttribute="bottom" constant="8" id="cK0-cc-AjV"/>
+                            <constraint firstItem="7Qs-OO-c6n" firstAttribute="top" secondItem="C3O-k3-HhZ" secondAttribute="bottom" constant="8" id="cai-KO-95E"/>
+                            <constraint firstItem="iYn-Px-xZk" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="dLJ-pC-gfR"/>
+                            <constraint firstItem="eV2-xq-ToP" firstAttribute="top" secondItem="iYn-Px-xZk" secondAttribute="bottom" constant="30" id="iEZ-RF-vwU"/>
+                            <constraint firstItem="iYn-Px-xZk" firstAttribute="top" secondItem="7Qs-OO-c6n" secondAttribute="bottom" constant="8" id="p0B-mb-fQF"/>
+                            <constraint firstItem="C3O-k3-HhZ" firstAttribute="centerX" secondItem="gA1-GM-yfq" secondAttribute="centerX" id="rPc-DM-qXs"/>
+                            <constraint firstItem="QjX-Vh-oZ6" firstAttribute="top" secondItem="bJb-8b-qGC" secondAttribute="bottom" constant="8" id="uLi-Py-uqn"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="e2D-V1-MxR"/>
+                    </view>
+                    <connections>
+                        <outlet property="imageLabel" destination="iYn-Px-xZk" id="xPU-aG-6f8"/>
+                        <outlet property="textLabel" destination="eV2-xq-ToP" id="8vj-Rn-bB9"/>
+                        <outlet property="titleLabel" destination="7Qs-OO-c6n" id="SFj-Mn-Dxg"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Xkx-XZ-mWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3229.5999999999999" y="870.31484257871068"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e9E-9W-iuK">
@@ -173,10 +367,10 @@ Drop to your knees if this is too challenging.
             </objects>
             <point key="canvasLocation" x="3229.5999999999999" y="134.48275862068968"/>
         </scene>
-        <!--View Controller-->
+        <!--Core View Controller-->
         <scene sceneID="LQG-dv-vfe">
             <objects>
-                <viewController id="k06-kn-qeM" sceneMemberID="viewController">
+                <viewController id="k06-kn-qeM" customClass="CoreViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="ZMq-zw-ek8">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -187,6 +381,30 @@ Drop to your knees if this is too challenging.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9Bg-Mi-t9C">
+                                <rect key="frame" x="78" y="156" width="219" height="44"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="18"/>
+                                <state key="normal" title="Click for a Core Workout">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="CoreRecommendation:" destination="k06-kn-qeM" eventType="touchUpInside" id="PTF-XU-ggK"/>
+                                </connections>
+                            </button>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="IDb-Tp-eXr">
+                                <rect key="frame" x="42" y="208" width="291" height="298"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <string key="text">Bird-Dog Crunch (abs, hamstrings, glutes, shoulders) 
+Start on the floor on all fours, hands placed directly underneath your shoulders, hips in line with your knees. 
+Lift your right hand and extend your arm straight out, keeping it shoulder height, while simultaneously lifting your left leg and extending it straight back
+Your whole body should be in a straight line from right fingertips to left toes. Bring your left leg to touch your right elbow under your stomach. Extend your leg and arm out again. Return to starting position.
+Repeat on the other side. Do five reps on each side.
+</string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
@@ -196,10 +414,13 @@ Drop to your knees if this is too challenging.
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="BuH-Vb-enr"/>
                     </view>
+                    <connections>
+                        <outlet property="CoreRecommendationText" destination="IDb-Tp-eXr" id="WhX-3v-Ds9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="wYg-YM-UJx" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3929" y="135"/>
+            <point key="canvasLocation" x="3928.8000000000002" y="134.48275862068968"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="vFO-hj-VWB">
@@ -229,6 +450,63 @@ Drop to your knees if this is too challenging.
             </objects>
             <point key="canvasLocation" x="4598" y="135"/>
         </scene>
+        <!--Lunch View Controller-->
+        <scene sceneID="qEh-bg-htq">
+            <objects>
+                <viewController id="MMk-3l-hGQ" customClass="LunchViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="ylb-oJ-3kc">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Lunch" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="G5T-Hg-hbB">
+                                <rect key="frame" x="132" y="59" width="110" height="42"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="35"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" Roasted Radish, Arugula and Havarti Pita Bread Pizza" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DWM-BX-es1">
+                                <rect key="frame" x="90" y="333" width="196" height="91"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-vl-CkO">
+                                <rect key="frame" x="90" y="522" width="195" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="click for a healthy lunch idea">
+                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="clickForRecommendation:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="JLH-Sp-f5T"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agE-mh-0Wu">
+                                <rect key="frame" x="125" y="432" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="click to see recipe"/>
+                                <connections>
+                                    <action selector="recipeLink:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="NHe-Rc-xFz"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" translatesAutoresizingMaskIntoConstraints="NO" id="R8L-Tl-L7K">
+                                <rect key="frame" x="67" y="109" width="240" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <viewLayoutGuide key="safeArea" id="7Kv-oK-C2Y"/>
+                    </view>
+                    <connections>
+                        <outlet property="LunchText" destination="DWM-BX-es1" id="C2Q-2I-65O"/>
+                        <outlet property="lunchText" destination="DWM-BX-es1" id="giM-0m-9zU"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYB-0R-ZEv" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="5284" y="134.48275862068968"/>
+        </scene>
         <!--Navigation Controller-->
         <scene sceneID="eER-FW-xhy">
             <objects>
@@ -249,6 +527,8 @@ Drop to your knees if this is too challenging.
         </scene>
     </scenes>
     <resources>
+        <image name="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" width="1140" height="1710"/>
+        <image name="b1" width="2448" height="3264"/>
         <image name="menu5" width="25" height="25"/>
     </resources>
 </document>
