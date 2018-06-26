@@ -271,22 +271,17 @@ Repeat on the other side. Do five reps on each side.
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="R8L-Tl-L7K">
-                                <rect key="frame" x="67" y="130" width="240" height="128"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                            </imageView>
-                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="DWM-BX-es1">
-                                <rect key="frame" x="77" y="277" width="221" height="112"/>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" fixedFrame="YES" text=" Roasted Radish, Arugula and Havarti Pita Bread Pizza" textAlignment="center" translatesAutoresizingMaskIntoConstraints="NO" id="DWM-BX-es1">
+                                <rect key="frame" x="90" y="333" width="196" height="91"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <string key="text">Lorem ipsum dolor sit er elit lamet, consectetaur cillium adipisicing pecu, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Nam liber te conscient to factor tum poen legum odioque civiuda.</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-vl-CkO">
-                                <rect key="frame" x="92" y="527" width="174" height="30"/>
+                                <rect key="frame" x="90" y="522" width="195" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="click for recommendation">
+                                <state key="normal" title="click for a healthy lunch idea">
                                     <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
                                 </state>
                                 <connections>
@@ -294,13 +289,17 @@ Repeat on the other side. Do five reps on each side.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agE-mh-0Wu">
-                                <rect key="frame" x="172" y="432" width="30" height="30"/>
+                                <rect key="frame" x="125" y="432" width="124" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="link"/>
+                                <state key="normal" title="click to see recipe"/>
                                 <connections>
                                     <action selector="recipeLink:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="NHe-Rc-xFz"/>
                                 </connections>
                             </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" translatesAutoresizingMaskIntoConstraints="NO" id="R8L-Tl-L7K">
+                                <rect key="frame" x="67" y="109" width="240" height="201"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            </imageView>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7Kv-oK-C2Y"/>
@@ -334,6 +333,7 @@ Repeat on the other side. Do five reps on each side.
         </scene>
     </scenes>
     <resources>
+        <image name="Healthy-Lunch-Recipes-For-Work-Pita-Bread-Pizzas" width="1140" height="1710"/>
         <image name="menu5" width="25" height="25"/>
     </resources>
 </document>
