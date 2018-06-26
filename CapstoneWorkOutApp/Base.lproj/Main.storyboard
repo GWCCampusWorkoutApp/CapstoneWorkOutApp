@@ -458,27 +458,25 @@ Repeat on the other side. Do five reps on each side.
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                             </textView>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="hb6-vl-CkO">
-                                <rect key="frame" x="90" y="522" width="195" height="30"/>
+                                <rect key="frame" x="91" y="543" width="195" height="30"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="click for a healthy lunch idea">
-                                    <color key="titleColor" white="0.0" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
+                                <state key="normal" title="click for a healthy lunch idea"/>
                                 <connections>
                                     <action selector="clickForRecommendation:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="JLH-Sp-f5T"/>
-                                </connections>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agE-mh-0Wu">
-                                <rect key="frame" x="125" y="432" width="124" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <state key="normal" title="click to see recipe"/>
-                                <connections>
-                                    <action selector="recipeLink:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="NHe-Rc-xFz"/>
                                 </connections>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="0" translatesAutoresizingMaskIntoConstraints="NO" id="R8L-Tl-L7K">
                                 <rect key="frame" x="67" y="109" width="240" height="201"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="agE-mh-0Wu">
+                                <rect key="frame" x="126" y="490" width="124" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="click to see recipe"/>
+                                <connections>
+                                    <action selector="recipeLink:" destination="MMk-3l-hGQ" eventType="touchUpInside" id="NHe-Rc-xFz"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <viewLayoutGuide key="safeArea" id="7Kv-oK-C2Y"/>
