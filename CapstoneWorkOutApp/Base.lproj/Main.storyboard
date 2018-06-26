@@ -14,44 +14,44 @@
         <scene sceneID="tne-QT-ifu">
             <objects>
                 <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="CapstoneWorkOutApp" customModuleProvider="target" sceneMemberID="viewController">
-                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC" customClass="UITableView">
+                    <view key="view" contentMode="scaleToFill" id="zxC-PG-4sp">
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" misplaced="YES" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Lwf-em-zKW">
+                            <view contentMode="scaleToFill" misplaced="YES" translatesAutoresizingMaskIntoConstraints="NO" id="k5M-9J-rcG">
                                 <rect key="frame" x="0.0" y="64" width="264" height="603"/>
                                 <subviews>
-                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Adb-xa-Jtz">
+                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="3d3-rf-eSG">
                                         <rect key="frame" x="3" y="8" width="258" height="42"/>
                                         <color key="backgroundColor" red="0.0" green="0.47843137250000001" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         <constraints>
-                                            <constraint firstAttribute="height" constant="42" id="qZj-Zy-p9F"/>
+                                            <constraint firstAttribute="height" constant="42" id="jiQ-Zu-UZA"/>
                                         </constraints>
                                         <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                         <state key="normal" title="Button">
                                             <color key="titleColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                         </state>
                                         <connections>
-                                            <segue destination="cma-97-0K9" kind="show" id="2NU-cX-jER"/>
+                                            <segue destination="cma-97-0K9" kind="show" id="hr2-dw-vYh"/>
                                         </connections>
                                     </button>
                                 </subviews>
                                 <color key="backgroundColor" red="1" green="0.1247955221" blue="0.17586727299999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <constraints>
-                                    <constraint firstItem="Adb-xa-Jtz" firstAttribute="leading" secondItem="Lwf-em-zKW" secondAttribute="leading" constant="3" id="6iX-3X-2v8"/>
-                                    <constraint firstAttribute="width" constant="264" id="DaL-e8-k7v"/>
-                                    <constraint firstItem="Adb-xa-Jtz" firstAttribute="top" secondItem="Lwf-em-zKW" secondAttribute="top" constant="8" id="PC1-JM-hiF"/>
-                                    <constraint firstAttribute="trailing" secondItem="Adb-xa-Jtz" secondAttribute="trailing" constant="3" id="Qge-Zz-epI"/>
+                                    <constraint firstItem="3d3-rf-eSG" firstAttribute="top" secondItem="k5M-9J-rcG" secondAttribute="top" constant="8" id="Fzk-Tu-COh"/>
+                                    <constraint firstAttribute="trailing" secondItem="3d3-rf-eSG" secondAttribute="trailing" constant="3" id="VzS-rY-RqY"/>
+                                    <constraint firstAttribute="width" constant="264" id="bxK-Oc-Fbj"/>
+                                    <constraint firstItem="3d3-rf-eSG" firstAttribute="leading" secondItem="k5M-9J-rcG" secondAttribute="leading" constant="3" id="vnI-mm-oPH"/>
                                 </constraints>
                             </view>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                         <constraints>
-                            <constraint firstItem="Lwf-em-zKW" firstAttribute="bottom" secondItem="6Tk-OE-BBY" secondAttribute="bottom" id="AmE-yd-C2N"/>
-                            <constraint firstItem="Lwf-em-zKW" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leading" constant="-264" id="Hqb-se-KVA"/>
-                            <constraint firstItem="Lwf-em-zKW" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="itr-Bj-87c"/>
+                            <constraint firstItem="k5M-9J-rcG" firstAttribute="leading" secondItem="zxC-PG-4sp" secondAttribute="leading" constant="-264" id="AJj-Wn-mEZ"/>
+                            <constraint firstItem="k5M-9J-rcG" firstAttribute="bottom" secondItem="aDw-qW-qsx" secondAttribute="bottom" id="Cqh-Fz-Ltq"/>
+                            <constraint firstItem="k5M-9J-rcG" firstAttribute="top" secondItem="aDw-qW-qsx" secondAttribute="top" id="bEj-ui-IlL"/>
                         </constraints>
-                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                        <viewLayoutGuide key="safeArea" id="aDw-qW-qsx"/>
                     </view>
                     <navigationItem key="navigationItem" title="HOME" id="ETf-Nt-VIf">
                         <barButtonItem key="leftBarButtonItem" image="menu5" id="h0h-nK-TOo">
@@ -61,7 +61,8 @@
                         </barButtonItem>
                     </navigationItem>
                     <connections>
-                        <outlet property="leadingConstraint" destination="Hqb-se-KVA" id="qWc-q5-Bbg"/>
+                        <outlet property="leadingConstraint" destination="AJj-Wn-mEZ" id="Mnh-fa-nRv"/>
+                        <outlet property="menuView" destination="k5M-9J-rcG" id="1rf-HT-oTz"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
