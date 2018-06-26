@@ -105,52 +105,52 @@
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Workouts " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="I8z-0A-nMB">
                                 <rect key="frame" x="123" y="54" width="130" height="36"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.65098039220000004" green="0.61176470589999998" blue="0.57647058819999997" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="I7k-Lv-G4E">
                                 <rect key="frame" x="10" y="115" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Arms">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="fiF-nl-Cdn">
                                 <rect key="frame" x="10" y="165" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Legs and Glutes">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="yNX-Wg-rTA">
                                 <rect key="frame" x="10" y="215" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Core">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="p0F-iZ-sTb">
                                 <rect key="frame" x="10" y="265" width="355" height="42"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.57647058819999997" blue="0.64705882349999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="25"/>
                                 <state key="normal" title="Cardio">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0039215686269999999" green="0.20784313730000001" blue="0.24313725489999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="WbH-tR-otb">
-                                <rect key="frame" x="314" y="619" width="53" height="36"/>
+                                <rect key="frame" x="315" y="619" width="53" height="36"/>
                                 <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.76470588240000004" green="0.2470588235" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Home">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                             </button>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.76470588240000004" green="0.2470588235" blue="0.23921568630000001" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="I7k-Lv-G4E" firstAttribute="leading" secondItem="hLp-wk-AZd" secondAttribute="leading" constant="10" id="0KR-lj-DN3"/>
                             <constraint firstItem="hLp-wk-AZd" firstAttribute="trailing" secondItem="I7k-Lv-G4E" secondAttribute="trailing" constant="10" id="66U-Wc-dMa"/>
@@ -182,42 +182,45 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snacks " textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ne3-G2-xEG">
-                                <rect key="frame" x="137" y="58" width="101" height="36"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Snacks " textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="ne3-G2-xEG">
+                                <rect key="frame" x="10" y="58" width="355" height="36"/>
+                                <color key="backgroundColor" red="0.96862745100000003" green="0.82352941180000006" blue="0.36862745099999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.8862745098" green="0.1764705882" blue="0.4039215686" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="2Zi-TX-MJj">
                                 <rect key="frame" x="52" y="131" width="271" height="36"/>
-                                <color key="backgroundColor" red="0.90270584819999999" green="0.0" blue="0.5" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <color key="backgroundColor" red="0.3921568627" green="0.14117647059999999" blue="0.4823529412" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="20"/>
                                 <state key="normal" title="Click for More Snacks ">
-                                    <color key="titleColor" red="1" green="0.92858285470000002" blue="0.95765090649999995" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                    <color key="titleColor" red="0.96078431369999995" green="0.84313725490000002" blue="0.19215686269999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 </state>
                                 <connections>
                                     <action selector="snacksButton:" destination="HWs-DB-aNI" eventType="touchUpInside" id="NC9-5d-bdx"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="14" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZI-lR-qrv">
-                                <rect key="frame" x="39" y="175" width="298" height="367"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" textAlignment="center" lineBreakMode="tailTruncation" numberOfLines="16" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="dZI-lR-qrv">
+                                <rect key="frame" x="38" y="175" width="298" height="376"/>
                                 <string key="text">Chunky Monkey Shake:
-If protein powder is just not your thing, there are plenty of alternatives to creating a high-protein beverage, including this banana-y pick-me-up, bulked up with chocolate milk and peanut butter, which provides both healthy fat and cardiovascular benefits in addition to protein.  It’s time to get funky, monkey!
+If protein powder is just not your thing, there are plenty of alternatives to creating a high-protein beverage, including this banana-y pick-me-up, bulked up with chocolate milk and peanut butter, which provides both healthy fat and cardiovascular benefits in addition to protein.  It’s time to get funky, monkey!    
 1 medium banana, 1 tablespoon of peanut butter, and 1 cup of low fat chocolate milk blended with 1 cup of ice: 15 grams protein</string>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
+                                <color key="textColor" red="0.16862745100000001" green="0.098039215690000001" blue="0.50980392159999999" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                 <nil key="highlightedColor"/>
                             </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <color key="backgroundColor" red="0.1058823529" green="0.63529411759999999" blue="0.7725490196" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="2Zi-TX-MJj" firstAttribute="leading" secondItem="mKP-16-Zny" secondAttribute="leading" constant="52" id="54V-c5-pAy"/>
                             <constraint firstItem="2Zi-TX-MJj" firstAttribute="top" secondItem="ne3-G2-xEG" secondAttribute="bottom" constant="37" id="9nK-5K-rzL"/>
                             <constraint firstItem="2Zi-TX-MJj" firstAttribute="top" secondItem="96n-oc-SNI" secondAttribute="top" constant="131" id="DVk-jC-8ST"/>
+                            <constraint firstItem="ne3-G2-xEG" firstAttribute="leading" secondItem="mKP-16-Zny" secondAttribute="leading" constant="10" id="HBI-oS-7O4"/>
                             <constraint firstItem="dZI-lR-qrv" firstAttribute="top" secondItem="2Zi-TX-MJj" secondAttribute="bottom" constant="8" symbolic="YES" id="HnP-9o-oTG"/>
                             <constraint firstItem="mKP-16-Zny" firstAttribute="trailing" secondItem="2Zi-TX-MJj" secondAttribute="trailing" constant="52" id="Zom-KP-Kae"/>
                             <constraint firstItem="2Zi-TX-MJj" firstAttribute="centerX" secondItem="dZI-lR-qrv" secondAttribute="centerX" id="bQd-9D-jGK"/>
                             <constraint firstItem="2Zi-TX-MJj" firstAttribute="centerX" secondItem="ne3-G2-xEG" secondAttribute="centerX" id="c6B-FJ-MAm"/>
+                            <constraint firstItem="mKP-16-Zny" firstAttribute="trailing" secondItem="ne3-G2-xEG" secondAttribute="trailing" constant="10" id="q4g-XB-POf"/>
                         </constraints>
                         <viewLayoutGuide key="safeArea" id="mKP-16-Zny"/>
                     </view>
