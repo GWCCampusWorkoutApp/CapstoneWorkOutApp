@@ -276,13 +276,13 @@ Drop to your knees if this is too challenging.
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QjX-Vh-oZ6">
-                                <rect key="frame" x="78" y="538" width="218" height="29"/>
+                                <rect key="frame" x="52" y="538" width="271" height="30"/>
                                 <constraints>
-                                    <constraint firstAttribute="width" constant="218" id="gCe-Ur-isM"/>
-                                    <constraint firstAttribute="height" constant="29" id="wCf-Ra-qFa"/>
+                                    <constraint firstAttribute="width" constant="271" id="DT2-Gk-K49"/>
+                                    <constraint firstAttribute="height" constant="30" id="hca-rq-4XK"/>
                                 </constraints>
                                 <fontDescription key="fontDescription" name="Palatino-Roman" family="Palatino" pointSize="16"/>
-                                <state key="normal" title="Click for Recommendation"/>
+                                <state key="normal" title="Click for More Recommendations"/>
                                 <connections>
                                     <action selector="recButton:" destination="8mo-Xb-IOg" eventType="touchUpInside" id="B2f-oQ-nRg"/>
                                 </connections>
@@ -337,7 +337,7 @@ Drop to your knees if this is too challenging.
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Xkx-XZ-mWB" userLabel="First Responder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3229.5999999999999" y="870.31484257871068"/>
+            <point key="canvasLocation" x="3324" y="871.21439280359823"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="e9E-9W-iuK">
