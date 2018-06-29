@@ -12,17 +12,20 @@ class ViewController: UIViewController {
 
   
     @IBOutlet weak var menuView: UIView!
+  
     @IBOutlet weak var leadingConstraint: NSLayoutConstraint!
     var menuShowing = false
     override func viewDidLoad() {
         super.viewDidLoad()
         menuView.layer.shadowOpacity = 5
-        menuView.layer.shadowRadius = 10
+        menuView.layer.shadowRadius = 1
         
     }
 
-    @IBAction func openMenu(_ sender: Any){
-        if (menuShowing){
+   
+    @IBAction func openMenu(_ sender: Any) {
+    
+    if (menuShowing){
         leadingConstraint.constant = -264
             UIView.animate(withDuration: 0.3, animations:{
                 self.view.layoutIfNeeded()
@@ -37,6 +40,7 @@ class ViewController: UIViewController {
         
         }
         menuShowing = !menuShowing
+ 
     }
 }
 

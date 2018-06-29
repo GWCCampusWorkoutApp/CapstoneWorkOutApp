@@ -15,6 +15,16 @@
 		CC7B313320E184EF00EC27A7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CC7B313120E184EF00EC27A7 /* LaunchScreen.storyboard */; };
 		CC7B313E20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B313D20E184EF00EC27A7 /* CapstoneWorkOutAppTests.swift */; };
 		CC7B314920E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */; };
+		CC96AE6320E2F9D0002A9F08 /* LegsAndGlutesViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6220E2F9D0002A9F08 /* LegsAndGlutesViewController.swift */; };
+		CC96AE6720E3EC3D002A9F08 /* CardioViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6620E3EC3D002A9F08 /* CardioViewController.swift */; };
+		CC96AE6920E4071E002A9F08 /* SnacksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6820E4071E002A9F08 /* SnacksViewController.swift */; };
+		CC96AE6B20E41240002A9F08 /* LunchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6A20E41240002A9F08 /* LunchViewController.swift */; };
+		CC96AE6D20E42592002A9F08 /* DinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6C20E42592002A9F08 /* DinnerViewController.swift */; };
+		CC96AE6F20E42BAD002A9F08 /* ArmsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE6E20E42BAD002A9F08 /* ArmsViewController.swift */; };
+		CC96AE7120E43098002A9F08 /* CoreViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE7020E43098002A9F08 /* CoreViewController.swift */; };
+		CC96AE7320E43A61002A9F08 /* BreakfastViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE7220E43A61002A9F08 /* BreakfastViewController.swift */; };
+		CC96AE7520E556F0002A9F08 /* CharityLinksViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CC96AE7420E556F0002A9F08 /* CharityLinksViewController.swift */; };
+		CCC83C7520E57A38000BA7BF /* Fundraiser1ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = CCC83C7420E57A38000BA7BF /* Fundraiser1ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +59,16 @@
 		CC7B314420E184EF00EC27A7 /* CapstoneWorkOutAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CapstoneWorkOutAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CC7B314820E184EF00EC27A7 /* CapstoneWorkOutAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CapstoneWorkOutAppUITests.swift; sourceTree = "<group>"; };
 		CC7B314A20E184EF00EC27A7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CC96AE6220E2F9D0002A9F08 /* LegsAndGlutesViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = LegsAndGlutesViewController.swift; path = CapstoneWorkOutApp/LegsAndGlutesViewController.swift; sourceTree = "<group>"; };
+		CC96AE6620E3EC3D002A9F08 /* CardioViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = CardioViewController.swift; path = CapstoneWorkOutApp/CardioViewController.swift; sourceTree = "<group>"; };
+		CC96AE6820E4071E002A9F08 /* SnacksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SnacksViewController.swift; sourceTree = "<group>"; };
+		CC96AE6A20E41240002A9F08 /* LunchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LunchViewController.swift; sourceTree = "<group>"; };
+		CC96AE6C20E42592002A9F08 /* DinnerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DinnerViewController.swift; sourceTree = "<group>"; };
+		CC96AE6E20E42BAD002A9F08 /* ArmsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArmsViewController.swift; sourceTree = "<group>"; };
+		CC96AE7020E43098002A9F08 /* CoreViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreViewController.swift; sourceTree = "<group>"; };
+		CC96AE7220E43A61002A9F08 /* BreakfastViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BreakfastViewController.swift; sourceTree = "<group>"; };
+		CC96AE7420E556F0002A9F08 /* CharityLinksViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharityLinksViewController.swift; sourceTree = "<group>"; };
+		CCC83C7420E57A38000BA7BF /* Fundraiser1ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fundraiser1ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,6 +99,8 @@
 		CC7B311920E184EE00EC27A7 = {
 			isa = PBXGroup;
 			children = (
+				CC96AE6620E3EC3D002A9F08 /* CardioViewController.swift */,
+				CC96AE6220E2F9D0002A9F08 /* LegsAndGlutesViewController.swift */,
 				CC7B312420E184EE00EC27A7 /* CapstoneWorkOutApp */,
 				CC7B313C20E184EF00EC27A7 /* CapstoneWorkOutAppTests */,
 				CC7B314720E184EF00EC27A7 /* CapstoneWorkOutAppUITests */,
@@ -100,8 +122,16 @@
 			isa = PBXGroup;
 			children = (
 				CC7B312520E184EE00EC27A7 /* AppDelegate.swift */,
+				CCC83C7420E57A38000BA7BF /* Fundraiser1ViewController.swift */,
 				CC7B312720E184EE00EC27A7 /* ViewController.swift */,
 				CC7B312920E184EE00EC27A7 /* Main.storyboard */,
+				CC96AE7420E556F0002A9F08 /* CharityLinksViewController.swift */,
+				CC96AE7220E43A61002A9F08 /* BreakfastViewController.swift */,
+				CC96AE6C20E42592002A9F08 /* DinnerViewController.swift */,
+				CC96AE6A20E41240002A9F08 /* LunchViewController.swift */,
+				CC96AE6E20E42BAD002A9F08 /* ArmsViewController.swift */,
+				CC96AE7020E43098002A9F08 /* CoreViewController.swift */,
+				CC96AE6820E4071E002A9F08 /* SnacksViewController.swift */,
 				CC7B312F20E184EF00EC27A7 /* Assets.xcassets */,
 				CC7B313120E184EF00EC27A7 /* LaunchScreen.storyboard */,
 				CC7B313420E184EF00EC27A7 /* Info.plist */,
@@ -259,9 +289,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CCC83C7520E57A38000BA7BF /* Fundraiser1ViewController.swift in Sources */,
+				CC96AE6F20E42BAD002A9F08 /* ArmsViewController.swift in Sources */,
+				CC96AE6720E3EC3D002A9F08 /* CardioViewController.swift in Sources */,
+				CC96AE6920E4071E002A9F08 /* SnacksViewController.swift in Sources */,
 				CC7B312820E184EE00EC27A7 /* ViewController.swift in Sources */,
+				CC96AE7320E43A61002A9F08 /* BreakfastViewController.swift in Sources */,
+				CC96AE6B20E41240002A9F08 /* LunchViewController.swift in Sources */,
+				CC96AE6D20E42592002A9F08 /* DinnerViewController.swift in Sources */,
 				CC7B312620E184EE00EC27A7 /* AppDelegate.swift in Sources */,
 				CC7B312E20E184EE00EC27A7 /* CapstoneWorkOutApp.xcdatamodeld in Sources */,
+				CC96AE6320E2F9D0002A9F08 /* LegsAndGlutesViewController.swift in Sources */,
+				CC96AE7520E556F0002A9F08 /* CharityLinksViewController.swift in Sources */,
+				CC96AE7120E43098002A9F08 /* CoreViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -437,6 +477,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KY66VF7VD;
 				INFOPLIST_FILE = CapstoneWorkOutApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -455,6 +496,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 7KY66VF7VD;
 				INFOPLIST_FILE = CapstoneWorkOutApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
